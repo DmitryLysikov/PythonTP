@@ -1,0 +1,5 @@
+str = input('Введите строку из 0 и 1: ')
+one, null = sum(i == '1' for i in str), sum(i == '0' for i in str)
+print('yes') if one == null else  print('no')
+str1  = input().split(' ')
+print(str1[1])
